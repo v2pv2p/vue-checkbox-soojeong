@@ -1,18 +1,15 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <CustomCheckBox/>
+    <div class="router">
+      <router-view></router-view>
+    </div>
   </div>
 </template>
 
 <script>
-import CustomCheckBox from './components/CustomCheckBox.vue'
-
 export default {
   name: 'App',
-  components: {
-    CustomCheckBox
-  }
 }
 </script>
 
